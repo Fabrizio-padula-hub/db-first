@@ -1,0 +1,14 @@
+usedcars
+
+id - INT - PRIMARY_KEY - NOTNULL - AUTO_INCREMENT - UNIQUE
+brand - VARCHAR(20) - NOTNULL
+model - VARCHAR(20) - NOTNULL
+year - TIMESTAMP - NOTNULL
+mileage - MEDIUMINT - NULL
+fuel_system - VARCHAR(20) - NOTNULL
+displacement - DOUBLE(8, 3) - NOTNULL
+power - SMALLINT - NULL
+warranty - VARCHAR(255) - DEFOULT ('Passa in concessonaria')
+price - DECIMAL(8, 2) - DEFOULT ('Passa in concessonaria')
+fuel_consumption - VARCHAR(20) - NULL
+description - TEXT - NULL
